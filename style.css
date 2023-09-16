@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+h1{
+    padding-bottom: 30px;
+    color: #00d8d6;
+    text-shadow: 10px 10px 20px #34e7e4;
+    font-size: 3rem;
+}
+.container img{
+    border-radius: 10px;
+    width: 70px;
+    height: 400px;
+    margin: 0 5px;
+    transition:  0.2s;
+}
+.container img:hover{
+    width: 600px;
+}
